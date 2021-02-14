@@ -3,7 +3,7 @@ import pytest
 from pythoncode.calculator import Calculator
 
 
-class TestCalc(pytest):
+class TestCalc:
 
     def setup_class(self):
         self.calc = Calculator()
